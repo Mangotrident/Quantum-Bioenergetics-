@@ -1,0 +1,27 @@
+name: qemd
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - networkx
+  - requests
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - shap
+  - statsmodels
+  - pyarrow
+  - fastapi
+  - uvicorn
+  - streamlit
+  - pytest
+  - black
+  - isort
+  - mypy
