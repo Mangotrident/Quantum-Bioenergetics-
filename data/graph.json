@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {"name": "NADH->CI entry", "genes": ["NDUFS1","NDUFS2","NDUFV1"]},
+    {"name": "CI core", "genes": ["NDUFA9","NDUFS7","NDUFA10"]},
+    {"name": "CoQ pool", "genes": ["COQ2","COQ3","COQ9"]},
+    {"name": "CIII", "genes": ["UQCRC1","UQCRC2","UQCRB"]},
+    {"name": "CIV", "genes": ["COX4I1","COX5A","COX6C"]},
+    {"name": "O2 sink", "genes": ["COX8A"]}
+  ],
+  "edges": [
+    [0,1],[1,2],[2,3],[3,4],[4,5],[2,4]
+  ]
+}
